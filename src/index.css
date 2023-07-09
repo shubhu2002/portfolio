@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Poppins&family=Ysabeau+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Poppins&family=Rajdhani&family=Ysabeau+SC&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+.intro{
+  visibility: hidden;
+  transition: .3s;
+}
+.card:hover .intro{
+  height: 110px;
+  bottom: 0;
+  visibility: visible;
+}
+@media (max-width:800px){
+  .card:hover .intro{
+    height:60px;
+    bottom:0;
+  }
+}
+#menu-toggle:checked ~ .menu {
+  display: block;
+}
+@keyframes anim{
+  100%{
+    stroke-dashoffset : 66;
+  }
+}
+@keyframes anim2{
+  100%{
+    stroke-dashoffset : 132;
+  }
+}
+@keyframes anim3{
+  100%{
+    stroke-dashoffset : 66;
+  }
+}
+@keyframes anim4{
+  100%{
+    stroke-dashoffset : 154;
+  }
+}
+@keyframes anim5{
+  100%{
+    stroke-dashoffset : 88;
+  }
+}
+@keyframes anim6{
+  100%{
+    stroke-dashoffset : 110;
+  }
+}
