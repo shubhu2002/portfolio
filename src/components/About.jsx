@@ -11,7 +11,7 @@ const About = () => {
       </div>
       <div className="w-full flex flex-col md:flex-row md:items-start items-center p-2">
         <div className="w-full md:w-[50%] flex justify-center items-center m-2 rounded-full ">
-          <img src={profile} alt="profile" className="w-64 md:w-72 h-64 md:h-72 object-fill rounded-full border-4 dark:border-white border-black" />
+          <img src={profile} alt="profile" className="w-64 md:w-72 h-64 md:h-72 object-contain rounded-full border-4 dark:border-white border-black" />
         </div>
         <div className="w-full md:w-[40%] flex justify-start items-start flex-col m-2">
           <h1 className=" font-Ysabeau text-xl text-center px-2 ">
