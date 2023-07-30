@@ -15,9 +15,10 @@
   scroll-behavior: smooth;
 }
 
-.card:hover{
-  cursor: pointer;
+html {
+  overflow-x: hidden;
 }
+
 .intro{
   visibility: hidden;
   transition: .3s;

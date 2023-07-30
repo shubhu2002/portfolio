@@ -6,7 +6,15 @@ import Skills from './components/Skills'
 import Home from "./components/Home";
 import Project from "./components/Projects";
 import Connect from "./components/Connect"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// ..
+AOS.init({
+  delay: 300,
+  mirror: false,
+  duration: 500,
+  easing: 'ease-in-out',
+});
 const App = () => {
   return (
     <div className="dark:bg-slate-900 dark:text-gray-100 bg-gray-200 text-black w-full min-h-screen" >

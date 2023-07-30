@@ -100,7 +100,7 @@ const Connect = () => {
                 className="input w-80 md:w-96 h-32 p-4 dark:bg-primary md:dark:bg-secondary bg-white border dark:border-white border-black rounded-xl outline-none"
               ></textarea>
             </div>
-              <button className="w-32 h-12 my-7 text-lg uppercase font-Ysabeau tracking-wider font-medium text-white border border-white bg-btn hover:bg-[rgba(185,28,28,0.7)] rounded-lg" style={cursor}>
+              <button className="w-32 h-12 my-7 text-lg uppercase font-Ysabeau tracking-wider font-medium text-white  bg-btn outline outline-1 outline-offset-[-4px] outline-white hover:outline-offset-[3px] duration-[0.2s] rounded-lg" style={cursor}>
                 {btnText}
               </button>
             {status.message && 

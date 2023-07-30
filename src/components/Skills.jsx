@@ -52,9 +52,9 @@ const Skills = () => {
               <CarouselItem per="85%" topic="HTML & CSS" svgtext="anim" />
               <CarouselItem per="70%" topic="JavaScript" svgtext="anim2" />
               <CarouselItem per="85%" topic="React JS" svgtext="anim3" />
-              <CarouselItem per="65%" topic="Express JS" svgtext="anim4" />
+              <CarouselItem per="65%" topic="Node JS" svgtext="anim4" />
               <CarouselItem per="80%" topic="C/C++" svgtext="anim5" />
-              <CarouselItem per="75%" topic="mySQL" svgtext="anim6" />
+              <CarouselItem per="75%" topic="Git/Github" svgtext="anim6" />
             </Carousel>
           </div>
         </div>
