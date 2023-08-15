@@ -29,6 +29,13 @@ const Project = () => {
           animation="fade-right"
         />
         <ProjectCard
+          text="Door Dash Food Delivery Landing Page developed by React & Tailwind CSS"
+          src={pro5}
+          text2="Door Dash Landing Page"
+          link="https://door-dash-food.netlify.app"
+          animation="fade-right"
+        />
+        <ProjectCard
           text="Todo Responsive App developed by React & Tailwind CSS with Local storage"
           src={pro2}
           text2="Todo App"
@@ -41,13 +48,6 @@ const Project = () => {
           text2="Onsight Cafe Page"
           link="https://github.com/shubhu2002/OnSight-Cafe.git"
           animation="fade-left"
-        />
-        <ProjectCard
-          text="Door Dash Food Delivery Landing Page developed by React & Tailwind CSS"
-          src={pro5}
-          text2="Door Dash Landing Page"
-          link="https://door-dash-food.netlify.app"
-          animation="fade-right"
         />
         <ProjectCard
           text="Library Management Project Based On C++ File Handling Feature"
