@@ -5,6 +5,7 @@ import pro2 from "../assets/pro2.png";
 import pro3 from "../assets/pro3.png";
 import pro4 from "../assets/pro4.png";
 import pro5 from "../assets/pro5.png";
+import pro6 from "../assets/pro6.png";
 
 const Project = () => {
   return (
@@ -14,10 +15,24 @@ const Project = () => {
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-8 md:gap-x-12 gap-y-10 font-Poppins capitalize ">
         <ProjectCard
+          text="Tour and Travel Responsive MERN App developed by the help of Vite(React) & Tailwind CSS "
+          src={pro6}
+          text2="Tours & Travel MERN App"
+          link="https://tourice.netlify.app/"
+          animation="fade-right"
+        />
+        <ProjectCard
           text="Personal Portfolio Responsive App developed by the help of React & Tailwind CSS "
           src={pro1}
           text2="Personal Portfolio App"
           link="https://shubhu-portfolio.netlify.com/"
+          animation="fade-right"
+        />
+        <ProjectCard
+          text="Door Dash Food Delivery Landing Page developed by React & Tailwind CSS"
+          src={pro5}
+          text2="Door Dash Landing Page"
+          link="https://door-dash-food.netlify.app"
           animation="fade-right"
         />
         <ProjectCard
@@ -33,13 +48,6 @@ const Project = () => {
           text2="Onsight Cafe Page"
           link="https://github.com/shubhu2002/OnSight-Cafe.git"
           animation="fade-left"
-        />
-        <ProjectCard
-          text="Door Dash Food Delivery Landing Page developed by React & Tailwind CSS"
-          src={pro5}
-          text2="Door Dash Landing Page"
-          link="https://door-dash-food.netlify.app"
-          animation="fade-right"
         />
         <ProjectCard
           text="Library Management Project Based On C++ File Handling Feature"

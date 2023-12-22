@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 
+const systemMode  = window.matchMedia('(prefers-color-scheme : dark)');
+
 const DarkTheme = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   
   const handleThemeEvent = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
+
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
@@ -15,7 +18,7 @@ const DarkTheme = () => {
   }, [theme]);
 
   useEffect(()=>{
-    if(window.matchMedia('(prefers-color-scheme : dark)').matches){
+    if(systemMode.matches){
         setTheme('dark')
     }
     else(
@@ -23,7 +26,15 @@ const DarkTheme = () => {
     )
   },[])
 
-
+  systemMode.addEventListener("change",()=>{
+    if(theme === "dark"){
+      setTheme("light");
+    }
+    else{
+      setTheme("dark")
+    }
+  })
+  
   return (
       <button onClick={handleThemeEvent}>
         {theme === "dark" ? (
