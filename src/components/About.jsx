@@ -23,7 +23,7 @@ const About = () => {
             Applications.
           </h1>
           <div className="w-full flex justify-center my-4 tracking-wider uppercase  ">
-            <Link to={resume} target="_blank" className=" px-6 rounded-md py-3 bg-btn text-white outline outline-1 outline-offset-[-4px] outline-white hover:outline-offset-[3px] duration-[0.2s]">
+            <Link to={'https://drive.google.com/file/d/1DjYKw5rH9VQ3OQ_oxQSILgL4RTzzfgvc/view?usp=drive_link'} target="_blank" className=" px-6 rounded-md py-3 bg-btn text-white outline outline-1 outline-offset-[-4px] outline-white hover:outline-offset-[3px] duration-[0.2s]">
               Resume
             </Link>
           </div>
