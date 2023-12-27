@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import resume from "../assets/resume.pdf"
 import profile from "../assets/profile.jpg";
 
 const About = () => {
